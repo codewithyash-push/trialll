@@ -1,0 +1,137 @@
+body {
+     font-family: 'Arial', sans-serif;
+     margin: 0;
+     padding: 0;
+     line-height: 1.6;
+     transition: background-color 0.5s, color 0.5s;
+ }
+ 
+ header {
+     background: #282c34;
+     padding: 20px;
+ }
+ 
+ .navbar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ .nav-links {
+     list-style: none;
+     display: flex;
+ }
+ 
+ .nav-links li {
+     margin-right: 20px;
+ }
+ 
+ .nav-links a {
+     color: #fff;
+     text-decoration: none;
+     transition: color 0.3s;
+ }
+ 
+ .nav-links a:hover {
+     color: #61dafb;
+ }
+ 
+ .btn {
+     padding: 10px 20px;
+     background: #007BFF;
+     border: none;
+     color: white;
+     cursor: pointer;
+     transition: background 0.3s;
+ }
+ 
+ .btn:hover {
+     background: #0056b3;
+ }
+ 
+ .hero {
+     text-align: center;
+     padding: 100px 20px;
+     background: linear-gradient(135deg, rgba(73, 83, 221, 0.8), rgba(249, 50, 118, 0.8));
+     color: white;
+ }
+ 
+ .hero-title {
+     font-size: 3rem;
+     margin-bottom: 10px;
+ }
+ 
+ .hero-subtitle {
+     font-size: 1.5rem;
+     margin-bottom: 20px;
+ }
+ 
+ .resume-section, .projects-section, .contact-section {
+     padding: 60px 20px;
+     text-align: center;
+ }
+ 
+ .project-list {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     gap: 20px;
+ }
+ 
+ .project-item {
+     width: 250px;
+     padding: 15px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     transition: transform 0.2s;
+     text-align: left;
+ }
+ 
+ .project-item:hover {
+     transform: scale(1.05);
+     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .social-links {
+     margin-top: 20px;
+ }
+ 
+ .social-link {
+     margin: 0 10px;
+     font-size: 20px;
+     color: #333;
+     transition: color 0.3s;
+ }
+ 
+ .social-link:hover {
+     color: #007BFF;
+ }
+ 
+ footer {
+     text-align: center;
+     padding: 20px;
+     background: #282c34;
+     color: white;
+ }
+ 
+ /* Light and Dark Theme Styles */
+ .light-theme {
+     background: #ffffff;
+     color: #333;
+ }
+ 
+ .dark-theme {
+     background: #333;
+     color: #ffffff;
+ }
+ 
+ /* Responsive Styles */
+ @media (max-width: 600px) {
+     .hero-title {
+         font-size: 2.5rem;
+     }
+ 
+     .hero-subtitle {
+         font-size: 1.2rem;
+     }
+ }
